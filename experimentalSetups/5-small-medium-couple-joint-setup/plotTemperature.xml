@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<portscope rows="1" columns="1" carrier="mcast">
+    <plot gridx="0"
+          gridy="0"
+          hspan="1"
+	  vspan="1"
+          minval="0"
+	  maxval="60"
+          title="Temperature"
+          bgcolor="LightSlateGrey">
+    <graph remote="/icub/5-setup/stateExt:o/split10:o"
+               index="0"
+               color="Red"
+               title="temperature j small"
+               type="lines"
+               size="3" />
+      <!-- <graph remote="/icub/5-setup/stateExt:o/split10:o"
+               index="1"
+               color="blue"
+               title="temperature j medium"
+               type="lines"
+               size="3" /> -->
+    </plot>
+    
+
+</portscope>
