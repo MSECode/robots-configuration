@@ -17,6 +17,8 @@
         <param name="motorNominalCurrents">     8000                5000                </param>
         <param name="motorPeakCurrents">        10000               9000                </param>
         <param name="motorOverloadCurrents">    15000               15000               </param>
+        <param name="hardwareTemperatureLimits">    80               80                    </param>
+        <param name="warningTemperatureLimits">    60               60                    </param>
         <param name="motorPwmLimit">            8000                8000                </param>
     </group>
 
