@@ -20,8 +20,8 @@
         <param name="motorNominalCurrents">     8000                </param>
         <param name="motorPeakCurrents">        10000               </param>
         <param name="motorOverloadCurrents">    3400               </param> <!-- temperature raw value 6784~= 80 deg , 3400~=38 deg-->
-        <param name="hardwareTemperatureLimits"> 35              </param>
-        <param name="warningTemperatureLimits">  30              </param>
+        <param name="hardwareTemperatureLimits"> 80              </param>
+        <param name="warningTemperatureLimits">  65              </param>
         <param name="motorPwmLimit">            32000               </param>
     </group>
 

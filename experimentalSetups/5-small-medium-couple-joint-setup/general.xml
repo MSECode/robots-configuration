@@ -4,11 +4,14 @@
 <params xmlns:xi="http://www.w3.org/2001/XInclude" robot="5-setup" build="1">
   
   <group name="GENERAL">
-      <param name="skipCalibration">    false   </param>
+      <param name="skipCalibration">    true   </param>
       <param name="useRawEncoderData">  false  </param>
       <param name="useLimitedPWM">      false  </param>
       <param name="verbose">            false  </param>
   </group>
 
+  <group name="DEBUG">
+      <param name="embBoardsConnected"> 0</param>
+  </group>
 
 </params>

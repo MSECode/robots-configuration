@@ -22,14 +22,14 @@
                 <group name="FIRMWARE">
                     <param name="major">            1                   </param>
                     <param name="minor">            3                   </param>
-                    <param name="build">            0                   </param>
+                    <param name="build">            3                   </param>
                 </group>
             </group>
 
             <group name="SENSORS">
                 <param name="id">                   battery1        </param>
                 <param name="board">                bat             </param>
-                <param name="location">             CAN1:1          </param>
+                <param name="location">             CAN1:2          </param>
             </group>
 
         </group>
@@ -37,7 +37,7 @@
 
         <group name="SETTINGS">
             <param name="enabledSensors">            battery1        </param>
-            <param name="acquisitionRate">           1000            </param>   <!-- msec -->
+            <param name="acquisitionRate">           100            </param>   <!-- msec -->
         </group>
 
 
