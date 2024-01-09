@@ -14,14 +14,14 @@
         <param name="Gearbox_M2J">              100.00              100.00              </param>
         <param name="Gearbox_E2J">              0                   0                  </param>
         <param name="useMotorSpeedFbk">         1                   1                   </param>
-        <param name="MotorType">                "MOOG-BL-C2900575"  "MOOG-BL-C2900575"  </param>
+        <param name="MotorType">                "TQ-ILM-50x08"      "TQ-ILM-50x08"  </param>
         <param name="Verbose"> 0 </param>
     </group>
     
     <group name="LIMITS">
         <!--                                    0                   1                   -->
-        <param name="hardwareJntPosMax">        82                  120                  </param>  
-        <param name="hardwareJntPosMin">       -52                 -5                   </param>
+        <param name="hardwareJntPosMax">        100 <!-- 82-->      120<!-- 120 -->                  </param>  
+        <param name="hardwareJntPosMin">       -60 <!-- -52-->      5 <!-- -5 -->                   </param>
         <param name="rotorPosMin">              0                   0                   </param> 
         <param name="rotorPosMax">              0                   0                   </param>
     </group>
@@ -35,7 +35,7 @@
         <param name="HasRotorEncoderIndex">     1                   1                   </param>
         <param name="HasSpeedEncoder">          0                   0                   </param>
         <param name="RotorIndexOffset">         0                   0                  </param>
-        <param name="MotorPoles">               8                   8                   </param>
+        <param name="MotorPoles">               20                  20                   </param>
     </group>
 
 

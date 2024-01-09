@@ -46,7 +46,7 @@
                     <param name="type">             mrie                mrie                </param> 
                     <param name="port">             CAN1:1:0            CAN1:2:0            </param>
                     <param name="position">         atmotor             atmotor             </param>
-                    <param name="resolution">       60160               60160               </param> <!-- 3760 x4 x 4-->
+                    <param name="resolution">       15040               15040               </param> <!-- 940 x4 x 4-->
                     <param name="tolerance">        3.6                 3.6                 </param> <!-- To be verified -->
                 </group> 
  
