@@ -6,9 +6,9 @@
 <device xmlns:xi="http://www.w3.org/2001/XInclude" name="upper_arm-eb1-j0_1-mc" type="embObjMotionControl">
 
     <xi:include href="../../general.xml" />
-    <xi:include href="../electronics/upper_arm-eb1-j1_0-eln.xml" />
-    <xi:include href="../mechanicals/upper_arm-eb1-j1_0-mec.xml" />
-    <xi:include href="./upper_arm-eb1-j1_0-mc_service.xml" />
+    <xi:include href="../electronics/upper_arm-eb1-j0_1-eln.xml" />
+    <xi:include href="../mechanicals/upper_arm-eb1-j0_1-mec.xml" />
+    <xi:include href="./upper_arm-eb1-j0_1-mc_service.xml" />
 
     <!-- joint number                           0                   1                   -->
     <!-- joint name                          shoulder_pitch        shoulder_roll        -->
