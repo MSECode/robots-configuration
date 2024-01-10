@@ -22,7 +22,7 @@
                 <group name="FIRMWARE">
                     <param name="major">            3                   </param>
                     <param name="minor">            3                   </param>
-                    <param name="build">            22                   </param>
+                    <param name="build">            24                   </param>
                 </group>
             </group>
 
@@ -34,19 +34,27 @@
                     <param name="port">             CAN1:1:0            CAN1:2:0            </param>
                 </group>
                 
-                <group name="ENCODER1">  
+                <!-- <group name="ENCODER1">  
                     <param name="type">             eomc_enc_aksim2     eomc_enc_aksim2     </param>  
-                    <param name="port">             CONN:P6             CONN:P8             </param>  <!-- To be verified -->
+                    <param name="port">             CONN:P6             CONN:P8             </param> 
                     <param name="position">         atjoint             atjoint             </param> 
                     <param name="resolution">       524288              524288              </param>
-                    <param name="tolerance">        0.703               0.703               </param>  <!-- To be verified -->
-                </group>        
+                    <param name="tolerance">        0.703               0.703               </param> 
+                </group>         -->
+
+                <group name="ENCODER1">  
+                    <param name="type">             none                none                </param>  
+                    <param name="port">             CONN:P6             CONN:P8             </param> 
+                    <param name="position">         atjoint             atjoint             </param> 
+                    <param name="resolution">       524288              524288              </param>
+                    <param name="tolerance">        0.703               0.703               </param> 
+                </group>     
                 
                 <group name="ENCODER2">
                     <param name="type">             mrie                mrie                </param> 
                     <param name="port">             CAN1:1:0            CAN1:2:0            </param>
                     <param name="position">         atmotor             atmotor             </param>
-                    <param name="resolution">       15040               15040               </param> <!-- 940 x4 x 4-->
+                    <param name="resolution">       -15040               -15040               </param> <!-- 940 x4 x 4-->
                     <param name="tolerance">        3.6                 3.6                 </param> <!-- To be verified -->
                 </group> 
  

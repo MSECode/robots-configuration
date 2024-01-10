@@ -31,7 +31,7 @@
 		<param name="startupPosThreshold">   2             2             2          2         </param>
 	</group>
 
-	<param name="CALIB_ORDER">  (3) (2) (0) (1)</param> 
+	<param name="CALIB_ORDER">  (3) (0) (1)</param> 
 
 	<action phase="startup" level="10" type="calibrate">
 		<param name="target">upper_arm-mc_remapper</param>
