@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE params PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
+
+<params xmlns:xi="http://www.w3.org/2001/XInclude" robot="test_setup_eb1" build="1">
+    <group name="GENERAL">
+        <param name="MotioncontrolVersion"> 6 </param>
+        <param name="Joints"> 2 </param>
+        <param name="AxisMap">               0                        1                   </param>
+        <param name="AxisName">         "test_setup_eb1_0"     "test_setup_eb1_1"     </param>
+        <param name="AxisType">         "revolute"               "revolute"               </param>
+        <param name="Encoder">          182.044                  182.044                  </param>
+        <param name="fullscalePWM">     32000                    32000                    </param>
+        <param name="ampsToSensor">     1000.0                   1000.0                   </param>
+        <param name="Gearbox_M2J">      1                        1                        </param>
+        <param name="Gearbox_E2J">      1                        1                        </param>
+        <param name="useMotorSpeedFbk"> 0                        0                        </param>
+        <param name="MotorType">        "BLL_MOOG"               "BLL_MOOG"               </param>
+        <param name="Verbose">          0                        0                        </param>
+    </group>
+
+    <group name="LIMITS">
+        <param name="hardwareJntPosMax">     0         0       </param>
+        <param name="hardwareJntPosMin">     0         0       </param>
+        <param name="rotorPosMin">           0         0       </param>
+        <param name="rotorPosMax">           0         0       </param>
+    </group>
+
+    <group name="2FOC">                                      
+	<param name="Verbose">                         0         0                  </param>
+        <param name="AutoCalibration">             0         0                  </param>
+        <param name="HasHallSensor">               0         0                  </param>
+        <param name="HasTempSensor">               0         0                  </param>
+        <!-- <param name="TemperatureSensorType">  PT1000    PT1000         </param> -->
+        <param name="HasRotorEncoder">             1         1                  </param>
+        <param name="HasRotorEncoderIndex">        1         1                  </param>
+        <param name="HasSpeedEncoder">             0         0                  </param>
+        <param name="RotorIndexOffset">            0         0               </param> <!--340   shoulder-yaw:119 shoulder-roll:67,(57) elbow:53, pitch:357-->
+        <param name="MotorPoles">                  20        20                 </param>
+   </group>
+
+    <group name="COUPLINGS">
+
+        <param name ="matrixJ2M">
+            1.0 0.0 0.0 0.0
+            0.0 1.0 0.0 0.0
+            0.0 0.0 1.0 0.0
+            0.0 0.0 0.0 1.0
+        </param>
+
+        <param name ="matrixM2J">
+            1.0 0.0 0.0 0.0
+            0.0 1.0 0.0 0.0
+            0.0 0.0 1.0 0.0
+            0.0 0.0 0.0 1.0
+        </param>
+
+        <param name ="matrixE2J">
+            1.00    0.00    0.00    0.00    0.00    0.00
+            0.00    1.00    0.00    0.00    0.00    0.00
+            0.00    0.00    1.00    0.00    0.00    0.00
+            0.00    0.00    0.00    1.00    0.00    0.00
+        </param>
+
+    </group>
+
+    <group name="JOINTSET_CFG">
+        <param name= "numberofsets"> 2 </param>
+        <group name="JOINTSET_0">
+            <param name="listofjoints">  0         </param>
+            <param name="constraint">    none      </param>
+            <param name="param1">        0         </param>
+            <param name="param2">        0         </param>
+        </group>
+        <group name="JOINTSET_1">
+            <param name="listofjoints">   1             </param>
+            <param name="constraint">     none          </param>
+            <param name="param1">         0             </param>
+            <param name="param2">         0             </param>
+        </group> 
+    </group>
+
+</params>

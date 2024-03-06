@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE robot PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
+
+    <robot name="test_setup_eb1" build="1" portprefix="/tseb1" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <params>
+            <xi:include href="hardware/electronics/pc104.xml" />
+        </params>
+
+        <devices>
+    
+            <!-- MC -->
+            <xi:include href="hardware/motorControl/test_setup_eb1-mc.xml" />
+            <xi:include href="wrappers/motorControl/test_setup_eb1-mc_wrapper.xml" />  
+            <xi:include href="wrappers/motorControl/test_setup_eb1-mc_remapper.xml" />  
+
+
+            <!-- FT SENSORS - IMU -->
+            <!-- <xi:include href="hardware/FT/test_setup-eb1-strain.xml"/>
+
+            <xi:include href="wrappers/FT/test_setup-FT_wrapper.xml" />
+            <xi:include href="wrappers/FT/test_setup-FT_remapper.xml" /> -->
+
+            <!-- <xi:include href="hardware/inertials/test_setup-eb1-inertial.xml" />
+
+            <xi:include href="wrappers/inertials/test_setup-imu_wrapper.xml" /> -->
+
+            <!-- BATTERY BAT  -->
+            <xi:include href="wrappers/battery/battery_bat.xml" /> 
+            <xi:include href="hardware/battery/battery_bat.xml" />
+
+        
+            <!--  CALIBRATORS -->  
+            <!-- <xi:include href="calibrators/test_setup_eb1-calib.xml" /> -->
+        
+    </devices>
+</robot>
