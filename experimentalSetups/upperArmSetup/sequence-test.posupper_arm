@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sequence_posupper_arm TotPositions="2" ReferencePart="upper_arm">
+    <Position Index="0" Timing="2.00">
+        <JointPositions Count="4">
+            <PosValue>0.00</PosValue>
+            <PosValue>0.00</PosValue>
+            <PosValue>0.00</PosValue>
+            <PosValue>0.00</PosValue>
+        </JointPositions>
+        <JointVelocities Count="4">
+            <SpeedValue>45.00</SpeedValue>
+            <SpeedValue>45.00</SpeedValue>
+            <SpeedValue>45.00</SpeedValue>
+            <SpeedValue>45.00</SpeedValue>
+        </JointVelocities>
+    </Position>
+    <Position Index="1" Timing="2.00">
+        <JointPositions Count="4">
+            <PosValue>-59.04</PosValue>
+            <PosValue>81.88</PosValue>
+            <PosValue>-23.40</PosValue>
+            <PosValue>30.26</PosValue>
+        </JointPositions>
+        <JointVelocities Count="4">
+            <SpeedValue>45.00</SpeedValue>
+            <SpeedValue>45.00</SpeedValue>
+            <SpeedValue>45.00</SpeedValue>
+            <SpeedValue>45.00</SpeedValue>
+        </JointVelocities>
+    </Position>
+</Sequence_posupper_arm>

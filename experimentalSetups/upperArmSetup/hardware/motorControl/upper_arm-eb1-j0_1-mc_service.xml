@@ -21,8 +21,8 @@
                 </group>
                 <group name="FIRMWARE">
                     <param name="major">            3                   </param>
-                    <param name="minor">            3                   </param>
-                    <param name="build">            24                   </param>
+                    <param name="minor">            6                   </param>
+                    <param name="build">            0                   </param>
                 </group>
             </group>
 
@@ -38,7 +38,7 @@
                     <param name="type">             eomc_enc_aksim2     eomc_enc_aksim2     </param>  
                     <param name="port">             CONN:P6             CONN:P8             </param> 
                     <param name="position">         atjoint             atjoint             </param> 
-                    <param name="resolution">       524288              524288              </param>
+                    <param name="resolution">       -524288              -524288              </param>
                     <param name="tolerance">        0.703               0.703               </param> 
                 </group>         -->
 

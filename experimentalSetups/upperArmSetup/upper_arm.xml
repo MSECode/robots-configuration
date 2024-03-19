@@ -18,7 +18,8 @@
     <xi:include href="hardware/motorControl/upper_arm-eb3-j2_3-mc.xml" />
 
 
-
+    <!-- ROBOMETRY -->
+    <xi:include href="telemetry/telemetry.xml" />
 
     <!--CALIBRATORS -->
     <xi:include href="calibrators/upper_arm-calib.xml" />

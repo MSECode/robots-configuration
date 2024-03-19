@@ -18,7 +18,7 @@
 	
 	<group name="CALIBRATION">
 	     <param name="calibrationType">      12            12            12         12        </param> 
-		<param name="calibration1">          0             0             0          0         </param>
+		<param name="calibration1">          58242         57062         0          36471     </param>
 		<param name="calibration2">	         0             0             0          0         </param>
 		<param name="calibration3">          0             0             0          0         </param>
 		<param name="calibration4">          0             0             0          0         </param>
@@ -31,7 +31,7 @@
 		<param name="startupPosThreshold">   2             2             2          2         </param>
 	</group>
 
-	<param name="CALIB_ORDER">  (3) (0) (1)</param> 
+	<param name="CALIB_ORDER"> (0) (1) (3) </param> <!--(2)-->
 
 	<action phase="startup" level="10" type="calibrate">
 		<param name="target">upper_arm-mc_remapper</param>
