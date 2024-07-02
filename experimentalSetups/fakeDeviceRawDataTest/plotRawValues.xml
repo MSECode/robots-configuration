@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<portscope rows="1" columns="1" carrier="mcast">
+    <plot gridx="0"
+          gridy="0"
+          hspan="1"
+	      vspan="1"
+          minval="-20"
+	      maxval="256"
+          title="Raw Valeus Test Plot"
+          bgcolor="LightSlateGrey">
+    <graph remote="/fakedevicetest/raw_data/rawData:o"
+               index="1"
+               color="purple"
+               title="raw value"
+               type="lines"
+               size="3" />
+    </plot>
+</portscope>
