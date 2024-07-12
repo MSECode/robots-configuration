@@ -8,11 +8,29 @@
 	      maxval="256"
           title="Raw Valeus Test Plot"
           bgcolor="LightSlateGrey">
-    <graph remote="/fakedevicetest/raw_data/rawData:o"
+    <graph remote="/fakedevicetest/raw_data/rawdata:o"
                index="1"
                color="purple"
-               title="raw value"
+               title="raw value 1"
                type="lines"
                size="3" />
+    <graph remote="/fakedevicetest/raw_data/rawdata:o"
+                index="2"
+                color="pink"
+                title="raw value 2"
+                type="lines"
+                size="3" />
+    <graph remote="/fakedevicetest/raw_data/rawdata:o"
+                index="3"
+                color="green"
+                title="raw value 3"
+                type="lines"
+                size="3" />
+    <graph remote="/fakedevicetest/raw_data/rawdata:o"
+                index="4"
+                color="orange"
+                title="raw value 4"
+                type="lines"
+                size="3" />
     </plot>
 </portscope>
