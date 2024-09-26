@@ -4,7 +4,7 @@
 	<device xmlns:xi="http://www.w3.org/2001/XInclude" name="fakeDeviceRaw" type="fakeRawValuesPublisher">  
  
 		<param name="name">      fake_device_raw        </param> 
-		<param name="nentities">              4         </param>   
+		<param name="njomos">              4         </param>   
 		<param name="threshold">            128         </param>          
 		
 
