@@ -13,7 +13,7 @@
 	<!--                              should_pitch  shoulder_roll        -->
 	<group name="HOME">
 		<param name="positionHome">          0                      </param>
-		<param name="velocityHome">          10                     </param>
+		<param name="velocityHome">          20                     </param>
 	</group>
 	
 	<group name="CALIBRATION">
@@ -26,8 +26,8 @@
 		<param name="calibrationZero">       0          </param>
 		<param name="calibrationDelta">      0           </param>
 		<param name="startupPosition">       0          </param> <!-- To be verified -->
-		<param name="startupVelocity">       10.0        </param>
-		<param name="startupMaxPwm">         32000        </param>
+		<param name="startupVelocity">       20.0        </param>
+		<param name="startupMaxPwm">         4000        </param>
 		<param name="startupPosThreshold">   2           </param>
 	</group>
 

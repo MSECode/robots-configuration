@@ -13,8 +13,8 @@
         <param name="logIAmplifierControl">true</param>
         <param name="logIRawValuesPublisher">true</param>
         <param name="logIMotors">true</param>
-        <param name="saveBufferManagerConfiguration">true</param>
-        <param name="experimentName">shoulder_pitch_calib12</param>
+        <param name="saveBufferManagerConfiguration">false</param>
+        <param name="experimentName">test_MVP1_first_YRI_run_joint_not_parked</param>
         <param name="path">./shoulder_pitch_joint_telemetry_data/</param>
         <param name="n_samples">800000</param>
         <param name="save_periodically">false</param>

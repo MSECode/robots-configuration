@@ -20,8 +20,8 @@
     <!--We use the limits defined here: https://github.com/icub-tech-iit/ergocub2-design-upperbody/wiki/Upper-Arm-generic-info -->
     <group name="LIMITS">
         <!--                                    0                   1                   -->
-        <param name="hardwareJntPosMax">        0                 </param>  <!--35 150 --> 
-        <param name="hardwareJntPosMin">        0               </param> <!--  -170  -15 -->
+        <param name="hardwareJntPosMax">        180                 </param>  <!--35 150 --> 
+        <param name="hardwareJntPosMin">        -180               </param> <!--  -170  -15 -->
         <param name="rotorPosMin">              0                             </param> 
         <param name="rotorPosMax">              0                             </param>
     </group>
