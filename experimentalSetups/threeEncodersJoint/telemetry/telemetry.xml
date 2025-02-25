@@ -12,8 +12,8 @@
         <param name="logIPidControl">false</param>
         <param name="logIAmplifierControl">true</param>
         <param name="logIRawValuesPublisher">true</param>
-        <param name="saveBufferManagerConfiguration">true</param>
-        <param name="experimentName">three_encoders_joint_amo_sequence_calib12</param>
+        <param name="saveBufferManagerConfiguration">false</param>
+        <param name="experimentName">MVP1_skiprecalib_calib10_fault_restart</param>
         <param name="path">./three_encoders_joint_telemetry_data/</param>
         <param name="n_samples">800000</param>
         <param name="save_periodically">false</param>
