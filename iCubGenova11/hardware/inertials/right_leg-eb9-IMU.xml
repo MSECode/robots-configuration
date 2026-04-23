@@ -32,6 +32,7 @@
                 <group name="SENSORS">
                     <param name="id">       r_lower_leg_imu_acc_2    r_lower_leg_imu_gyro_2    r_lower_leg_imu_eul_2    r_lower_leg_imu_mag_2    r_lower_leg_imu_stat_2
                     </param>
+                    <param name="sensorName"> r_lower_leg_ft_imu      r_lower_leg_ft_imu       r_lower_leg_ft_imu      r_lower_leg_ft_imu      r_lower_leg_ft_imu    </param>
 
                     <param name="type">     eoas_imu_acc  eoas_imu_gyr  eoas_imu_eul  eoas_imu_mag   eoas_imu_status
                     </param>
