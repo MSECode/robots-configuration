@@ -120,6 +120,8 @@
 
     <!-- WHOLEBODYDYNAMICS -->
     <xi:include href="estimators/wholebodydynamics.xml" />
+    <!-- RERUN -->
+    <xi:include href="estimators/yarpLoggerRerun.xml" />
 
     </devices>
 </robot>
