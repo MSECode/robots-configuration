@@ -1,0 +1,97 @@
+[[01;32mDEBUG[00m] |[01;32myarp.yri.XMLReader[00m| Reading file /home/jlosi/Workspace/robotology-superbuild/src/robots-configuration/experimentalSetups/testSkin-EMS-mtb4series/./test-skin-setup.xml
+[[01;32mDEBUG[00m] |[01;32myarp.yri.XMLReader[00m| yarprobotinterface: using xml parser for DTD v3.x
+[[01;32mDEBUG[00m] Reading file /home/jlosi/Workspace/robotology-superbuild/src/robots-configuration/experimentalSetups/testSkin-EMS-mtb4series/./test-skin-setup.xml
+[[01;34mINFO[00m] Yarprobotinterface was started using the following enable_tags: 
+[[01;34mINFO[00m] Yarprobotinterface was started using the following disable_tags: 
+[[01;32mDEBUG[00m] List of all enable attributes found in the include tags: 
+[[01;32mDEBUG[00m] List of all disable attributes found in the include tags: 
+[[01;32mDEBUG[00m] Preprocessor complete in:  0.000497818 s
+[[01;34mINFO[00m] |[01;32myarp.os.Port[00m|[94m/testSetup/yarprobotinterface[00m| Port /testSetup/yarprobotinterface active at tcp://10.0.1.104:10002/
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| startup phase starting...
+[[01;32mDEBUG[00m] |[01;33myarp.dev.PolyDriver[00m|[35mrobotDescriptionStorage[00m| Parameters are (device robotDescriptionStorage) (name yriDescriptionStorage)
+[[01;34mINFO[00m] |[01;33myarp.dev.PolyDriver[00m|[35mrobotDescriptionStorage[00m| Created device <robotDescriptionStorage>. See C++ class RobotDescriptionStorage for documentation.
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Opening device test_setup-eb1-skin . Use option `show-device-parameters` for additional info.
+[[01;32mDEBUG[00m] |[01;33myarp.dev.PolyDriver[00m|[97mtest_setup-eb1-skin[00m| Parameters are (ETH_BOARD (ETH_BOARD_PROPERTIES (IpAddress "10.0.1.1") (IpPort 12345) (Type ems4) (maxSizeRXpacket 768) (maxSizeROP 384)) (ETH_BOARD_SETTINGS (Name test_setup-eb1) (RUNNINGMODE (period 1000) (maxTimeOfRXactivity 400) (maxTimeOfDOactivity 300) (maxTimeOfTXactivity 300) (TXrateOfRegularROPs 3))) (ETH_BOARD_ACTIONS (MONITOR_ITS_PRESENCE (enabled true) (timeout 0.0200000000000000004163) (periodOfMissingReport 60.0)))) (GENERAL (skipCalibration false) (useRawEncoderData false) (useLimitedPWM false) (verbose false)) (PC104 (PC104IpAddress "10.0.1.104") (PC104IpPort 12345) (PC104TXrate 1) (PC104RXrate 5)) (defaultCfgBoard (period 50) (skinType 8) (noLoad 240) (diagnostic false)) (defaultCfgTriangle (enabled true) (shift 2) (cdcOffset 8704)) (device embObjSkin) (id test_setup-eb1-skin) (patches (skinCanAddrsPatch1 1 2 3 4 5 6 7)) (robotName "/testSetup")
+[[01;33mWARNING[00m] eth::parser::read(): cannot find ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group in config files for BOARD w/ IP 10.0.1.1  and will use default values
+[[01;33mWARNING[00m] Default values for ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group: (IMMEDIATE.emitRXDOTXoverflow = true, PERIODIC.period = 0, PERIODIC.emitRXDOTXstatistics = false
+[[01;33mWARNING[00m] ServiceParser::parseService(SKIN) has received an invalid SERVICE group: using defaults
+[[01;32mDEBUG[00m] eth::parser::print(pc104Data) for PC104:
+[[01;32mDEBUG[00m] PC104/PC104IpAddress:PC104IpPort =  10.0.1.104:12345
+[[01;32mDEBUG[00m] PC104/PC104TXrate =  1
+[[01;32mDEBUG[00m] PC104/PC104RXrate =  5
+[[01;32mDEBUG[00m] EthSender is a PeriodicThread with txrate = 1 ms
+[[01;32mDEBUG[00m] EthReceiver is a PeriodicThread with rxrate = 5 ms
+[[01;33mWARNING[00m] in EthReceiver::config() the config socket has queue size =  425984 ; you request ETHRECEIVER_BUFFER_SIZE= 
+[[01;33mWARNING[00m] eth::parser::read(): cannot find ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group in config files for BOARD w/ IP 10.0.1.1  and will use default values
+[[01;33mWARNING[00m] Default values for ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group: (IMMEDIATE.emitRXDOTXoverflow = true, PERIODIC.period = 0, PERIODIC.emitRXDOTXstatistics = false
+[[01;33mWARNING[00m] eth::parser::read(): cannot find ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group in config files for BOARD w/ IP 10.0.1.1  and will use default values
+[[01;33mWARNING[00m] Default values for ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group: (IMMEDIATE.emitRXDOTXoverflow = true, PERIODIC.period = 0, PERIODIC.emitRXDOTXstatistics = false
+[[01;32mDEBUG[00m] eth::parser::print(boardData) for BOARD test_setup-eb1
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_PROPERTIES:
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_PROPERTIES/IpAddress =  10.0.1.1
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_PROPERTIES/IpPort =  12345
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_PROPERTIES/Type =  ems4
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_PROPERTIES/maxSizeRXpacket =  768
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_PROPERTIES/maxSizeROP =  384
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_SETTINGS:
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_SETTINGS/Name =  test_setup-eb1
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_SETTINGS/RUNNINGMODE/ =   runnermode = synchronized safetygap = 0 cycletime = 1000 maxtimeRX = 400 maxtimeDO = 300 txratedivider = 3
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_SETTINGS/RUNNINGMODE/LOGGING/ =   logging.period = 0.000000 flags = TBD
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_ACTIONS/MONITOR_ITS_PRESENCE
+[[01;32mDEBUG[00m] ETH_BOARD/ETH_BOARD_ACTIONS/MONITOR_ITS_PRESENCE/(enabled, timeout, periodOfMissingReport) =  true 0.02 60
+[[01;33mWARNING[00m] eth::parser::read(): cannot find ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group in config files for BOARD w/ IP 10.0.1.1  and will use default values
+[[01;33mWARNING[00m] Default values for ETH_BOARD_PROPERTIES/RUNNINGMODE/LOGGING group: (IMMEDIATE.emitRXDOTXoverflow = true, PERIODIC.period = 0, PERIODIC.emitRXDOTXstatistics = false
+[[01;32mDEBUG[00m] eth::EthMonitorPresence::config(): monitoring of presence is ON for BOARD 10.0.1.1 (test_setup-eb1) with timeout = 0.02 sec and period of missing report = 60 sec
+[[01;32mDEBUG[00m] TheEthManager::requestResource2(): has just succesfully created a new EthResource for board of type ems4 with IP =  10.0.1.1
+[[01;34mINFO[00m] from BOARD 10.0.1.1 (test_setup-eb1) time=650s 997m 46u :  SYS: the board has detected a restart of the remote transceiver because the rx ropframe sequence number is 1. Expected number is 8
+[[01;32mDEBUG[00m] EthResource::verifyBoardPresence() found BOARD test_setup-eb1 with IP 10.0.1.1 after 0.00506926 seconds
+[[01;32mDEBUG[00m] EthResource::verifyBoardTransceiver() has validated the transceiver of BOARD test_setup-eb1 with IP 10.0.1.1
+[[01;31mERROR[00m] theNVmanager::Impl::wait() had a timeout for BOARD test_setup-eb1 IP 10.0.1.1 and nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::command() fails a wait() from IP 10.0.1.1 for nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::wait() had a timeout for BOARD test_setup-eb1 IP 10.0.1.1 and nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::command() fails a wait() from IP 10.0.1.1 for nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::wait() had a timeout for BOARD test_setup-eb1 IP 10.0.1.1 and nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::command() fails a wait() from IP 10.0.1.1 for nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] EthResource::serviceCommand() failed an acked activation request to BOARD test_setup-eb1 with IP 10.0.1.1 after 3 attempts each with waiting timeout of 0.5 seconds
+[[01;31mERROR[00m] EthResource::cleanBoardBehaviour() cannot stop services for BOARD test_setup-eb1 with IP 10.0.1.1 : cannot proceed any further
+[[01;31mERROR[00m] EthResource::verifyEPprotocol() cannot verify BOARD test_setup-eb1 with IP 10.0.1.1 : cannot proceed any further
+[[01;31mERROR[00m] theNVmanager::Impl::wait() had a timeout for BOARD test_setup-eb1 IP 10.0.1.1 and nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::command() fails a wait() from IP 10.0.1.1 for nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::wait() had a timeout for BOARD test_setup-eb1 IP 10.0.1.1 and nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::command() fails a wait() from IP 10.0.1.1 for nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::wait() had a timeout for BOARD test_setup-eb1 IP 10.0.1.1 and nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] theNVmanager::Impl::command() fails a wait() from IP 10.0.1.1 for nv ID32 = 0x00030001 -> IND = 0, TAG = eoprot_tag_mn_service_status_commandresult
+[[01;31mERROR[00m] EthResource::serviceCommand() failed an acked activation request to BOARD test_setup-eb1 with IP 10.0.1.1 after 3 attempts each with waiting timeout of 0.5 seconds
+[[01;31mERROR[00m] |[01;33myarp.dev.PolyDriver[00m|[97mtest_setup-eb1-skin[00m| Driver <embObjSkin> was found but could not open
+[[01;33mWARNING[00m] |[01;35myarp.yri.Device[00m| Cannot open device test_setup-eb1-skin
+[[01;33mWARNING[00m] |[01;35myarp.yri.Robot[00m| Cannot open device test_setup-eb1-skin
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Opening device test_setup-skin_wrapper . Use option `show-device-parameters` for additional info.
+[[01;32mDEBUG[00m] |[01;33myarp.dev.PolyDriver[00m|[37mtest_setup-skin_wrapper[00m| Parameters are (device multipleanalogsensorsserver) (id test_setup-skin_wrapper) (name "/icub/test_setup/skin") (period 20) (ports (test_setup_upper)) (robotName "/testSetup") (test_setup_upper 1152 2495 0 1343) (total_taxels 1344)
+[[01;34mINFO[00m] |[01;32myarp.device.MultipleAnalogSensorsServer[00m| Parameter 'name' using value: /icub/test_setup/skin
+[[01;34mINFO[00m] |[01;32myarp.device.MultipleAnalogSensorsServer[00m| Parameter 'period' using value: 20
+[[01;34mINFO[00m] |[01;33myarp.dev.PolyDriver[00m|[37mtest_setup-skin_wrapper[00m| Created wrapper <multipleanalogsensorsserver>. See C++ class MultipleAnalogSensorsServer for documentation.
+[[01;33mWARNING[00m] |[01;35myarp.yri.Robot[00m| There was some problem opening one or more devices. Please check the log and your configuration
+[[01;31mERROR[00m] |[01;35myarp.yri.Robot[00m| One or more devices failed opening... see previous log messages for more info
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Closing device test_setup-skin_wrapper
+[[01;32mDEBUG[00m] |[01;37myarp.device.multipleanalogsensorsserver[00m| Detach complete
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Closing device test_setup-eb1-skin
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| All devices closed.
+[[01;31mERROR[00m] Error in startup phase... see previous messages for more info
+[[01;33mWARNING[00m] |[01;35myarp.yri[00m| Interrupt # 1 # received.
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Interrupt received. Stopping all running threads.
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| interrupt1 phase starting...
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| interrupt1 phase finished.
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| shutdown phase starting...
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Entering action level 5 of phase shutdown
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Executing detach action, level 5 on device test_setup-skin_wrapper with parameters []
+[[01;31mERROR[00m] |[01;35myarp.yri.Device[00m| test_setup-skin_wrapper is neither a wrapper nor a multiplewrapper, therefore it cannot have detach actions
+[[01;31mERROR[00m] |[01;35myarp.yri.Robot[00m| Cannot run detach action on device test_setup-skin_wrapper
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| All actions for action level 5 of shutdown phase started. Waiting for unfinished actions.
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| All actions for action level 5 of shutdown phase finished.
+[[01;33mWARNING[00m] |[01;35myarp.yri.Robot[00m| There was some problem running actions for shutdown phase . Please check the log and your configuration
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Closing device test_setup-skin_wrapper
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| Closing device test_setup-eb1-skin
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| All devices closed.
+[[01;34mINFO[00m] |[01;35myarp.yri.Robot[00m| shutdown phase finished.
+[[01;31mERROR[00m] |[01;35myarp.yri[00m| Error in shutdown phase... see previous messages for more info
+[[01;34mINFO[00m] |[01;32myarp.os.RFModule[00m| RFModule failed to open.

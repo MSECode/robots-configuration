@@ -1,0 +1,62 @@
+<application>
+  <name>Skin Gui All</name>
+  <module>
+    <name>skinManager</name>
+    <parameters>--from skinManAll.ini --context skinGui</parameters>
+    <!-- <node>iiticublap235</node> -->
+    <tag>skinMan</tag>
+  </module>
+  <module>
+    <name>skinManagerGui</name>
+    <parameters>--from skinManGui.ini --context skinGui --xpos 1020 --ypos 350</parameters>
+    <!-- <node>iiticublap235</node> -->
+    <tag>skinManGui</tag>
+  </module>
+
+  <module>
+    <name>iCubSkinGui</name>
+    <!-- Remember to use the proper configuration files (i.e. "_V2.ini" for V2 robots) -->
+    <parameters>--from torso.ini --useCalibration --xpos 320 --ypos 350 --width 300 --height 300</parameters>
+    <node>iiticublap235</node>
+    <tag>skinGuiT</tag>
+  </module>
+  
+  
+  <connection>
+    <from>/skinManager/skin_events:o</from>
+    <to>/wholeBodyDynamics/skin_contacts:i</to>
+    <protocol>fast_tcp</protocol>
+  </connection>
+  <connection>
+    <from>/skinManagerGui/rpc:o</from>
+    <to>/skinManager/rpc</to>
+    <protocol>fast_tcp</protocol>
+  </connection>
+  <connection>
+    <from>/skinManager/monitor:o</from>
+    <to>/skinManagerGui/monitor:i</to>
+    <protocol>fast_tcp</protocol>
+  </connection>
+  <connection>
+    <from>/skinManager/info:o</from>
+    <to>/skinManagerGui/info:i</to>
+    <protocol>fast_tcp</protocol>
+  </connection>
+
+  <connection>
+    <from>/diagnostics/skin/errors:o</from>
+    <to>/skinManager/diagnostics/skin/errors:i</to>
+    <protocol>fast_tcp</protocol>
+  </connection>  
+  <connection>
+    <from>/skinManager/diagnostics/skin/errors:o</from>
+    <to>/skinManagerGui/diagnostics/skin/errors:i</to>
+    <protocol>fast_tcp</protocol>
+  </connection>
+  
+  <connection>
+    <from>/icub/skin/torso_comp</from>
+    <to>/skinGui/torso:i</to>
+    <protocol>fast_tcp</protocol>
+  </connection>
+</application>
